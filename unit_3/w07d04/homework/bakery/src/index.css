@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Chewy', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F8d9d6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title-container {
+  width: 100%;
+  height: auto;
+  margin: 1% 6%;
+}
+
+span {
+  color: #84af9b;
+}
+
+.header-grid-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin: 0 10%;
+  justify-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 5% 1%;
+  margin: 2% 10%;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h3 {
+  color: #42929d;
+}
+
+img {
+  width: 90%;
+}
+
+.gameButton {
+  height: auto;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+}
+
+.gameButton:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px); 
+}
+
+.factory {
+  width: 76%;
+  height: auto;
+  margin: 5% 10%;
+  border-radius: 40px;
+}
+
+.factory:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px); 
+}
+
+/* SHAKE EFFECT REFERENCE */
+/* https://www.w3schools.com/howto/howto_css_shake_image.asp */
+.imglock:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 0.5;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 3%;
+}
+

@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header{
+    background-color:lightgray;
+    height: 80px;
+}
+
+.main{
+    display: flex;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+
+.threetop{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    background-color: lightgray;
+    margin: 30px;
+}
+
+.gray{
+    height: 200px;
+    width: 500px;
+    background-color: gray;
+    margin: 20px auto;
+}
+.visitors{
+    background-color: lightgray;
+    margin: 30px;
+}
+
+.reviews{
+    background-color: lightgray;
+    width: 30%;
+    height: 200px;
+}
+.rating{
+    background-color: lightgray;
+}
+.analysis{
+    background-color: lightgray;
+}
+
+.leftlist{
+     padding: 0;
+}
+
+.footer{
+    background-color: lightgray;
+    height: 80px;
+  
+}
+
+
+.footerList{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+   

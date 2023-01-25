@@ -1,0 +1,19 @@
+body {
+    background-color: #F8F7FF
+}/*or any color of your choosing*/
+
+body {
+    text-align: center;
+}
+
+.Owl {
+    font-family: fantasy, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.secret {
+    opacity: 0.5;
+}

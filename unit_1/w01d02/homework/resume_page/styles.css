@@ -1,0 +1,59 @@
+/* header modifications */
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 2.5em;
+}
+
+/* h3 edits */
+h3 {
+  color: #FF0000;
+}
+/* photo edits */
+.main_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 30%;
+    border-radius: 50%;
+    height: auto;
+    /* float: right; */
+
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: #A020F0;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: none;
+  color: #FF0000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #FF0000;
+  color: #A020F0;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #FF0000;
+  color: white;
+}
+
+/* PROJECT.HTML STYLING */
+.column {
+  float: left;
+  width: 32%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}

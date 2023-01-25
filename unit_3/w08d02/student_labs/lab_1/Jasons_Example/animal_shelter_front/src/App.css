@@ -1,0 +1,45 @@
+button {
+  margin: .3em;
+}
+.blue {
+  font-size: 1.5em;
+  border-radius: 10px;
+  background-color: rgba(80,145,250,.7);
+
+}
+.purple {
+  border-radius: 10px;
+  background-color: rgba(180,145,250,1);
+}
+.red {
+  border-radius: 10px;
+  background-color: rgba(250,145,145,1);
+}
+.green {
+  border-radius: 10px;
+  background-color: rgba(185, 252, 185, 1);
+}
+.background {
+  background-image: url('https://i.pinimg.com/564x/af/d3/ef/afd3efd404a39a2b46870aa37717d0b1.jpg');
+  background-size: cover;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: rgba(255,255,255,.7);
+  width: 12.5em;
+  height: 22em;
+  margin: 1em;
+  padding: .2em;
+  box-shadow: 20px 20px 50px grey;
+}
+.editCard {
+  background-color: rgba(255,100,100,.5);
+  height: 24em;
+}
+.cardPic {
+  max-width: 10em;
+  max-height: 10.5em;
+}

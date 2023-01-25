@@ -1,0 +1,21 @@
+/* body {
+  background-color: black;
+} */
+#red {
+  display: inline-block;
+  background-color: firebrick;
+  width: 200px;
+  height: 200px;
+}
+#white {
+  display: inline-block;
+  background-color: ivory;
+  width: 200px;
+  height: 200px;
+}
+#blue {
+  display: inline-block;
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 200px;
+}

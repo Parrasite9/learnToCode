@@ -1,0 +1,14 @@
+body { 
+    background-color: #F8F7FF;
+    /* font-family: fantasy; */
+    text-align: center;
+    /* color: antiquewhite; */
+}
+
+table, th, td{
+    border: 1px solid gray
+}
+
+table {
+    margin:0 auto; 
+}

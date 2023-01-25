@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    display: grid;
+    /* outline: 8px solid red; */
+    grid-template-columns: repeat(8, 1fr);
+    border-color: aqua;
+    grid-auto-rows: 100px;
+}
+
+.white {
+    background-color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+

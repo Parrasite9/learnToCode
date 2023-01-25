@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Sweet Cupcake demo";
+  src: local('Sweet Cupcake demo'),
+   url(.fonts/SweetCupcakedemo.ttf) format('truetype');
+}
